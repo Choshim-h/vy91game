@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Acool.com</title>
+<link href="css.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('images/img/menu_all2.jpg','images/img/menu_downloads2.jpg','images/img/menu_online2.jpg','file:///C|/Documents and Settings/Administrator/×ÀÃæ/°¢¿áÐÂ°æ/images/img/menu_all2.jpg')">
+<div id="web_top">
+  <table width="982" height="30" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="54"><a href="index.html"><img src="images/img/home.jpg" width="54" height="30" border="0" /></a></td>
+      <td width="6"></td>
+      <td width="111"><a href="#" onclick="window.external.addFavorite('http://www.acool.com','ACool.com')" ><img src="images/img/fav.jpg" width="111" height="30" border="0" /></a></td>
+      <td width="579"></td>
+      <td width="233" background="images/img/top_bg02.jpg"></td>
+    </tr>
+  </table>
+</div>
+<div id="main_box">
+<div class="main_under_bg">
+  <table width="982" height="25" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td> </td>
+    </tr>
+  </table>
+  <table width="982" height="165" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="596" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="images/img/acoollogo.jpg" width="360" height="80" /></td>
+          </tr>
+        </table>
+          <table width="100%" height="35" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td valign="top" class="web_top_logofont">New Best Free Games Daily</td>
+            </tr>
+          </table>
+        <table width="100%" height="40" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="25"></td>
+              <td width="176"><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','images/img/menu_all2.jpg',1)"><img src="images/img/menu_all.jpg" name="Image12" width="176" height="50" border="0" id="Image12" /></a><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image17','','images/img/menu_all2.jpg',1)"></a></td>
+              <td width="9"></td>
+              <td width="176"><a href="acoolgames.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image18','','images/img/menu_downloads2.jpg',1)"><img src="images/img/menu_downloads.jpg" name="Image18" width="176" height="50" border="0" id="Image18" /></a></td>
+              <td width="9"></td>
+              <td width="176"><a href="onlinegames.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image19','','images/img/menu_online2.jpg',1)"><img src="images/img/menu_online2.jpg" width="176" height="50" border="0" /></a></td>
+              <td width="25"></td>
+            </tr>
+        </table></td>
+      <td width="386"><table width="100%" height="165" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="255" valign="top" background="images/img/top_hotbg.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="70"><table width="100%" height="35" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td></td>
+                      </tr>
+                    </table>
+                      <div align="center" class="web_top_font1">Welcome to Acool Games!</div></td>
+                </tr>
+              </table>
+                <table width="220" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td class="web_top_font2">If you're having a problem with one of our games or if you're having a business offers just feel  free to contact us:<a href="mailto:acoolgames@gmail.com" class="web_top_font3">acoolgames@gmail.com</a></td>
+                  </tr>
+              </table></td>
+            <td width="131"><a href="#"><img src="images/img/top_hot01.jpg" width="131" height="165" border="0" /></a></td>
+          </tr>
+      </table></td>
+    </tr>
+  </table>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><img src="images/img/online_menu_bg01.jpg" width="983" height="3" /></td>
+    </tr>
+  </table>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="36" height="45" background="images/img/online_menu_bg02.jpg"> </td>
+      <td width="909" background="images/img/online_menu_bg05.jpg" bgcolor="#53A4F6"><table width="100%" height="45" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="130"><div align="center"><a href="/game/41_1/index.html" class="menu_font1">ACTION</a></div></td>
+          <td width="130"><div align="center"><a href="/game/92_1/index.html" class="menu_font1">ADVENTURE</a></div></td>
+          <td width="130"><div align="center"><a href="/game/24_1/index.html" class="menu_font1">GIRLS</a> </div></td>
+          <td width="130"><div align="center"><a href="/game/45_1/index.html" class="menu_font1">SHOOTING</a></div></td>
+          <td width="130"><div align="center"><a href="/game/96_1/index.html" class="menu_font1">STRATEGY</a></div></td>
+          <td width="130"><div align="center"><a href="/game/27_1/index.html" class="menu_font1">PUZZLE</a></div></td>
+          <td width="129"><div align="center"><a href="/game/b8_1/index.html" class="menu_font1">SPORTS</a></div></td>
+        </tr>
+      </table></td>
+      <td width="37" height="45" background="images/img/online_menu_bg03.jpg"> </td>
+    </tr>
+  </table>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><img src="images/img/online_menu_bg04.jpg" width="983" height="3" /></td>
+    </tr>
+  </table>
+  <div style="height:14px;"></div>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="15" height="15" background="images/img/1.gif"></td>
+      <td width="952" background="images/img/3.gif"></td>
+      <td width="15" height="15" background="images/img/2.gif"></td>
+    </tr>
+  </table>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="15" background="images/img/4.gif"> </td>
+      <td bgcolor="#5FABFA"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="35"><table width="952" height="40" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="200" valign="top" class="web_online_title">NEW GAMES </td>
+                  <td valign="bottom"> </td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+          <table width="952" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="15" height="15" background="images/img/1_2.jpg"></td>
+              <td width="922" bgcolor="#FFFFFF"></td>
+              <td width="15" height="15" background="images/img/2_2.jpg"></td>
+            </tr>
+          </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td bgcolor="#FFFFFF"> <div style=" padding:10px;">
+          <%
+		i=1
+		maxList=24
+		set rs = server.CreateObject("ADODB.RecordSet")
+		sql="select top 24 id,flashname,classid,classname,spic,pic,sj from flash order by id desc"		
+		rs.open sql,conn,1,1
+		do while not rs.EOF
+	  %>
+          <div class="zjgxnew">
+            <table width="110" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="96" height="44" align="center"><a href="/<%=makeUrl_flash%>/<%=left(md5(rs("id")&md5Str),1)&rs("id")%>/" target="_blank"><img src="flashspic/<%=rs("spic")%>" width="110" height="82" border="0" /></a></td>
+              </tr>
+              <tr>
+                <td height="30" align="center"><a href="/<%=makeUrl_flash%>/<%=left(md5(rs("id")&md5Str),1)&rs("id")%>/" target="_blank"><%=left(rs("flashname"),30)%></a></td>
+              </tr>
+            </table>
+          </div>
+          <%
+			i=i+1
+			if i>maxList then exit do
+			rs.movenext
+			loop
+			rs.close
+			set rs=nothing
+	  %>
+        </div></td>
+            </tr>
+          </table>
+        <table width="952" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="15" height="15" background="images/img/3_2.jpg"></td>
+              <td width="922" bgcolor="#FFFFFF"></td>
+              <td width="15" height="15" background="images/img/4_2.jpg"></td>
+            </tr>
+        </table></td>
+      <td width="15" background="images/img/5.gif"> </td>
+    </tr>
+  </table>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="15" height="15" background="images/img/6.gif"></td>
+      <td width="952" background="images/img/7.gif"></td>
+      <td width="15" height="15" background="images/img/8.gif"></td>
+    </tr>
+  </table>
+  <div style="height:14px;"></div>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="15" height="15" background="images/img/1.gif"></td>
+      <td width="952" background="images/img/3.gif"></td>
+      <td width="15" height="15" background="images/img/2.gif"></td>
+    </tr>
+  </table>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="15" background="images/img/4.gif"> </td>
+      <td bgcolor="#5FABFA"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="35"><table width="952" height="40" border="0" align="left" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="300" valign="top" class="web_online_title">POPULAR GAMES</td>
+              <td valign="bottom"> </td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+      <table width="952" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="15" height="15" background="images/img/1_2.jpg"></td>
+            <td width="922" bgcolor="#FFFFFF"></td>
+            <td width="15" height="15" background="images/img/2_2.jpg"></td>
+          </tr>
+        </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td bgcolor="#FFFFFF"><div style=" padding:10px;">
+                <%
+		i=1
+		maxList=48
+		set rs = server.CreateObject("ADODB.RecordSet")
+		sql="select top 48 id,flashname,classid,classname,spic,pic,sj from flash order by hits desc"		
+		rs.open sql,conn,1,1
+		do while not rs.EOF
+	  %>
+                <div class="zjgxnew">
+                  <table width="110" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="96" height="44" align="center"><a href="/<%=makeUrl_flash%>/<%=left(md5(rs("id")&md5Str),1)&rs("id")%>/" target="_blank"><img src="flashspic/<%=rs("spic")%>" width="110" height="82" border="0" /></a></td>
+                    </tr>
+                    <tr>
+                      <td height="30" align="center"><a href="/<%=makeUrl_flash%>/<%=left(md5(rs("id")&md5Str),1)&rs("id")%>/" target="_blank"><%=left(rs("flashname"),30)%></a></td>
+                    </tr>
+                  </table>
+                </div>
+                <%
+			i=i+1
+			if i>maxList then exit do
+			rs.movenext
+			loop
+			rs.close
+			set rs=nothing
+	  %>
+              </div></td>
+            </tr>
+          </table>
+        <table width="952" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="15" height="15" background="images/img/3_2.jpg"></td>
+              <td width="922" bgcolor="#FFFFFF"></td>
+              <td width="15" height="15" background="images/img/4_2.jpg"></td>
+            </tr>
+        </table></td>
+      <td width="15" background="images/img/5.gif"> </td>
+    </tr>
+  </table>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="15" height="15" background="images/img/6.gif"></td>
+      <td width="952" background="images/img/7.gif"></td>
+      <td width="15" height="15" background="images/img/8.gif"></td>
+    </tr>
+  </table>
+  <table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="40"> </td>
+    </tr>
+  </table>
+  
+</div>
+</div>
+<div id="footer">
+<table width="100%" height="100" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><table width="982" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><div align="right" class="web_footer_font1"><a href="#" class="web_footer_font1">Company Information</a> <span class="web_footer_font2">|</span> <a href="#" class="web_footer_font1">Contact Us</a> <span class="web_footer_font2">|</span> <a href="#" class="web_footer_font1">Priavcy Statement</a> <span class="web_footer_font2">|</span> <a href="#" class="web_footer_font1">Link to Us</a><br />
+                2010 Acool Games. All rights reserved.</div></td>
+            </tr>
+          </table>
+		    <div style=" display:none;"><script src="http://s17.cnzz.com/stat.php?id=2422758&web_id=2422758" language="JavaScript"></script></div>
+		  </td>
+          <td width="202"><img src="images/img/footer_logo.jpg" width="202" height="100" /></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

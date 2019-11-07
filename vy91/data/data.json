@@ -1,0 +1,26 @@
+{
+  "data":[
+    {
+      "name":"图片10",
+      "href":"/gameinfo/<%=Replace(rs('flashname'),' ','-')%>.html",
+      "url": "<%=rs('mpic')%>",
+      "alt":"<%=rs('cnflashname')%>"
+    },
+    {
+      "name":"图片10",
+      "url": "../img/jpg/Bullet-Fire.jpg",
+      "alt":"sjidfo"
+    },
+    {
+      "name":"图片10",
+      "url": "../img/jpg/Elsa-Find-And-Dress-Up.jpg",
+      "alt":"sjidfo"
+    },
+    {
+      "name":"图片10",
+      "url": "../img/jpg/Miraculous-Ladybug-Tennis.jpg",
+      "alt":"sjidfo"
+    }
+
+  ]
+}

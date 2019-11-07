@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="gb2312"><link rel="stylesheet" href="/css/index.css" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+</head>
+
+<body>
+	<div class="top">
+    	<div class="top_l">
+    		<span><img src="/img/1_06.gif"/>中国最大的H5游戏平台</span>
+            <a href="#"><img src="/img/1_03.gif"/></a>
+        </div>
+        <div class="top_r">
+        	<a href="#">收藏H5游戏窝 |</a> 
+            <a href="#">保存到桌面</a>
+        </div>
+    </div>
+    
+    
+    <div class="cen">
+    	<div class="cen_l">
+        	<img src="/img/laiwanh5logo.png"/>
+        </div>
+        <div class="cen_c">
+        	<ul>
+            	<li><a href="/">首页</a></li>
+                <li><a href="/moregames.html">H5游戏库</a></li>
+                <li><a href="/hot-games.html">热门</a></li>
+                <li><a href="#">新闻</a></li>
+                <li><a href="#">攻略</a></li>
+                            </ul>
+        </div>
+        <div class="cen_r">
+        	<form>
+            	<input class="input" type="text" placeholder="找游戏">
+            </form>
+        </div>
+    </div>
+    
+    
+    <div class="banner">
+    	<div class="banner_top">
+    		<div class="banner_top_l"><img src="img/laiwanh5logo.png"/></div>
+    		<div class="banner_top_r">
+    			<ul>
+    				<li><a href="#"><span><img src="img/top_11.jpg"/></span></a></li>
+    				<li><a href="#"><img src="img/top_03.jpg"/></a></li>
+    				<li><a href="#"><img src="img/top_05.jpg"/></a></li>
+    			</ul>
+    		</div>
+    	</div>
+    	
+    	<div class="banner_cen">
+    <!--焦点图 开始-->
+    <script src="http://m.55g.cc/Statics/js/Mobile/idangerous.swiper-2.1.min.js"></script>
+
+        <div class="eye">
+        <div class="swiper-container" id="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <a href="http://www.laiwanh5.com/gameinfo/Tear-Her-Clothes-H5.html"><img src="http://www.laiwanh5.com/img/m01.jpg"  /> </a> </div>
+                <div class="swiper-slide"> <a href="http://www.laiwanh5.com/gameinfo/Robot-Skeleton-Dragon.html"><img src="http://www.laiwanh5.com/img/m02.jpg" /> </a> </div>
+                <div class="swiper-slide"> <a href="http://www.laiwanh5.com/gameinfo/Outwit-Ball-Uniform-H5.html"><img src="http://www.laiwanh5.com/img/m03.jpg" /> </a> </div>
+            </div>
+        </div>
+        <div class="pagination" id="pagination"></div>
+    </div>
+    <!--焦点图 结束-->
+    <script>
+        /* 焦点图 */
+        var mySwiper = new Swiper('#swiper-container',{
+            pagination: '#pagination',
+            loop:true,
+            autoplay:5000,
+            onSlideChangeEnd:function (swiper) {
+                mySwiper.startAutoplay();
+            },
+            grabCursor: true,
+            paginationClickable: true
+        })
+    </script>
+
+    	</div>
+    	
+    	<div class="banner_btm">
+    		<ul>
+    			<li><a href="#"><img src="img/banner_t_05.jpg"/>新闻</a></li>
+    			<li><a href="#"><img src="img/banner_t_07.jpg"/>攻略</a></li>
+    			<li><a href="#"><img src="img/banner_t_09.jpg"/>玩过的</a></li>
+    			<li><a href="#"><img src="img/banner_t_11.jpg"/>我的收藏</a></li>
+    		</ul>
+    	</div>
+    </div>
+    
+  
+    <div class="box">
+	    <div class="content">
+	    	<div class="content_t">
+	        	<div class="content_t_l"><span><b>经典游戏</b></span></div>
+	            <div class="content_t_r">
+	            	<a href="#">更多</a>
+	            </div>
+	        </div>
+	        
+	        <div class="content_btm">
+		    	<ul>
+  
+               	<li><a href="/gameinfo/Swift-Pterosaur-H5.html" title="拼装机械翼龙H5版" ><img src="/imagedata/icon/201605190055323332.jpg" alt="拼装机械翼龙H5版"/><br />拼装机械翼龙H5版<br /><span>开始游戏</span></a></li>
+
+               	<li><a href="/gameinfo/Toy-Robot-War-Robot-Slots.html" title="玩具机器人老虎机" ><img src="/imagedata/icon/201605180219298370.jpg" alt="玩具机器人老虎机"/><br />玩具机器人老虎机<br /><span>开始游戏</span></a></li>
+
+               	<li><a href="/gameinfo/Rich-Man-Survival.html" title="土豪求生记" ><img src="/imagedata/icon/2015101323154883749.jpg" alt="土豪求生记"/><br />土豪求生记<br /><span>开始游戏</span></a></li>
+
+               	<li><a href="/gameinfo/Outwit-Ball-Uniform-H5.html" title="熟睡中的美女H5版" ><img src="/imagedata/icon/201511250234309270.jpg" alt="熟睡中的美女H5版"/><br />熟睡中的美女H5版<br /><span>开始游戏</span></a></li>
+
+               	<li><a href="/gameinfo/Finger-Stabbing.html" title="切手指" ><img src="/imagedata/icon/201503130138445925.jpg" alt="切手指"/><br />切手指<br /><span>开始游戏</span></a></li>
+
+               	<li><a href="/gameinfo/Tear-Her-Clothes-H5.html" title="撕掉她的外衣在线版" ><img src="/imagedata/icon/2016031804285716138.jpg" alt="撕掉她的外衣在线版"/><br />撕掉她的外衣在线版<br /><span>开始游戏</span></a></li>
+          
+		        </ul>
+	        </div>
+	        <div class="content_enter">
+	         	<form>
+	            	<input type="submit" value="全部游戏">
+	            </form>
+	        </div>
+	    </div>
+    </div>
+    
+    
+    <div class="last">
+		<div class="last_t">
+        	<div class="last_t_l"><span><b>猜你喜欢</b></span></div>
+            <div class="last_t_r">
+            	<img src="/img/nn_23.jpg"/><a href="#">换一换</a>
+            </div>
+        </div>
+        
+        <div class="last_b">
+        	<ul>
+  
+               	<li><a href="/gameinfo/Swift-Pterosaur-H5.html" title="拼装机械翼龙H5版" ><img src="/imagedata/icon/201605190055323332.jpg" alt="拼装机械翼龙H5版"/>拼装机械翼龙H5版<br /><h>益智休闲<br /></h>57728<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Toy-Robot-War-Robot-Slots.html" title="玩具机器人老虎机" ><img src="/imagedata/icon/201605180219298370.jpg" alt="玩具机器人老虎机"/>玩具机器人老虎机<br /><h>益智休闲<br /></h>69243<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Rich-Man-Survival.html" title="土豪求生记" ><img src="/imagedata/icon/2015101323154883749.jpg" alt="土豪求生记"/>土豪求生记<br /><h>益智休闲<br /></h>17766<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Robot-Thunder-Leopard.html" title="组装雷豹" ><img src="/imagedata/icon/2017010617084961730.jpg" alt="组装雷豹"/>组装雷豹<br /><h>益智休闲<br /></h>5506<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Ice-Cream-Shop.html" title="搭建冰淇淋店" ><img src="/imagedata/icon/2016071504100415004.jpg" alt="搭建冰淇淋店"/>搭建冰淇淋店<br /><h>益智休闲<br /></h>6943<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Whack-The-Cheater.html" title="暴力打小三" ><img src="/imagedata/icon/2016071123250384303.jpg" alt="暴力打小三"/>暴力打小三<br /><h>益智休闲<br /></h>44344<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Robot-Hell-Hound.html" title="拼装机械地狱犬" ><img src="/imagedata/icon/2016070103093411375.jpg" alt="拼装机械地狱犬"/>拼装机械地狱犬<br /><h>益智休闲<br /></h>83381<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/King-Of-Terrors.html" title="拼装机械恐惧之王" ><img src="/imagedata/icon/2016062204285116131.jpg" alt="拼装机械恐惧之王"/>拼装机械恐惧之王<br /><h>益智休闲<br /></h>76106<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Foot-Chinko-Euro-2016.html" title="制胜欧洲杯2016" ><img src="/imagedata/icon/2016062120535275233.jpg" alt="制胜欧洲杯2016"/>制胜欧洲杯2016<br /><h>益智休闲<br /></h>5046<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Pregnant-Mommy-Rescue.html" title="紧急救援孕妇" ><img src="/imagedata/icon/2016061620470774827.jpg" alt="紧急救援孕妇"/>紧急救援孕妇<br /><h>益智休闲<br /></h>17282<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Stickman-Fighter-Epic-Battles.html" title="火柴人史诗战斗" ><img src="/imagedata/icon/2016061523191883958.jpg" alt="火柴人史诗战斗"/>火柴人史诗战斗<br /><h>益智休闲<br /></h>13231<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Robot-Behemoth.html" title="拼装机械哥斯拉" ><img src="/imagedata/icon/2016061504213815699.jpg" alt="拼装机械哥斯拉"/>拼装机械哥斯拉<br /><h>益智休闲<br /></h>77103<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Kung-Fu-Panda-3-Training-Challenge.html" title="功夫熊猫3训练开始" ><img src="/imagedata/icon/2016060623332184801.jpg" alt="功夫熊猫3训练开始"/>功夫熊猫3训练开始<br /><h>益智休闲<br /></h>15914<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Flicking-Soccer.html" title="桌上足球" ><img src="/imagedata/icon/20160606000602362.jpg" alt="桌上足球"/>桌上足球<br /><h>益智休闲<br /></h>1531<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Robot-Twin-Headed-Dragon.html" title="拼装机械双头龙" ><img src="/imagedata/icon/2016060304052714728.jpg" alt="拼装机械双头龙"/>拼装机械双头龙<br /><h>益智休闲<br /></h>95083<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Swerve.html" title="弯道漂移" ><img src="/imagedata/icon/2016060221171576636.jpg" alt="弯道漂移"/>弯道漂移<br /><h>益智休闲<br /></h>9539<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Robot-Skeleton-Dragon.html" title="拼装机械骷髅龙王" ><img src="/imagedata/icon/2016052503263212392.jpg" alt="拼装机械骷髅龙王"/>拼装机械骷髅龙王<br /><h>益智休闲<br /></h>81491<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Rally-Racer.html" title="拉力赛车手" ><img src="/imagedata/icon/201605250023261406.jpg" alt="拉力赛车手"/>拉力赛车手<br /><h>益智休闲<br /></h>7074<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Suburban-Karate-Master-Mobile.html" title="空手道大师陶阿甘" ><img src="/imagedata/icon/2016051923543986079.jpg" alt="空手道大师陶阿甘"/>空手道大师陶阿甘<br /><h>益智休闲<br /></h>9715<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Ninja-Boy.html" title="忍者好小子" ><img src="/imagedata/icon/2016051920252273523.jpg" alt="忍者好小子"/>忍者好小子<br /><h>益智休闲<br /></h>2787<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Ninja-Caver.html" title="夺宝忍者" ><img src="/imagedata/icon/2016050820323073950.jpg" alt="夺宝忍者"/>夺宝忍者<br /><h>益智休闲<br /></h>6811<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Nom-Cat.html" title="吧唧猫" ><img src="/imagedata/icon/2016050503321012730.jpg" alt="吧唧猫"/>吧唧猫<br /><h>益智休闲<br /></h>5786<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Yeti-Sensation.html" title="雪怪逃亡" ><img src="/imagedata/icon/201605040123124993.jpg" alt="雪怪逃亡"/>雪怪逃亡<br /><h>益智休闲<br /></h>6437<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Mighty-Motors.html" title="传奇赛车手" ><img src="/imagedata/icon/2016050323452985529.jpg" alt="传奇赛车手"/>传奇赛车手<br /><h>益智休闲<br /></h>10476<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Adventure-Time-Candy-Dive.html" title="探险活宝救糖果人" ><img src="/imagedata/icon/201604290146276388.jpg" alt="探险活宝救糖果人"/>探险活宝救糖果人<br /><h>益智休闲<br /></h>10429<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Gumball-Manic-Canteen.html" title="陶阿甘疯狂食堂" ><img src="/imagedata/icon/201604290119314772.jpg" alt="陶阿甘疯狂食堂"/>陶阿甘疯狂食堂<br /><h>益智休闲<br /></h>10202<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Gumball-Dumb-Race.html" title="陶阿甘跳障碍" ><img src="/imagedata/icon/201604290233469227.jpg" alt="陶阿甘跳障碍"/>陶阿甘跳障碍<br /><h>益智休闲<br /></h>13409<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Slots-Free-777.html" title="777老虎机" ><img src="/imagedata/icon/2016042803061511176.jpg" alt="777老虎机"/>777老虎机<br /><h>益智休闲<br /></h>10659<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Zombie-Night.html" title="抵御僵尸之夜" ><img src="/imagedata/icon/201604260219038343.jpg" alt="抵御僵尸之夜"/>抵御僵尸之夜<br /><h>益智休闲<br /></h>1594<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Trail-Blazer.html" title="飞天小女警开拓者" ><img src="/imagedata/icon/201604220149436583.jpg" alt="飞天小女警开拓者"/>飞天小女警开拓者<br /><h>益智休闲<br /></h>13852<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Gate-Crashers.html" title="探险活宝守护神" ><img src="/imagedata/icon/201604220042382558.jpg" alt="探险活宝守护神"/>探险活宝守护神<br /><h>益智休闲<br /></h>4170<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Uncle-Grandpa-Psychedelic-Puzzle.html" title="天才阿公来拼图" ><img src="/imagedata/icon/201604220020061206.jpg" alt="天才阿公来拼图"/>天才阿公来拼图<br /><h>益智休闲<br /></h>16747<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/King-of-Thieves.html" title="神偷HTML5版" ><img src="/imagedata/icon/2016042119472271243.jpg" alt="神偷HTML5版"/>神偷HTML5版<br /><h>益智休闲<br /></h>8748<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Slam-Dunk-Forever.html" title="灌篮高手" ><img src="/imagedata/icon/201604080210567856.jpg" alt="灌篮高手"/>灌篮高手<br /><h>益智休闲<br /></h>1365<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Super-Barbara-Real-Haircuts.html" title="超级芭比头发秀" ><img src="/imagedata/icon/2016040623351484914.jpg" alt="超级芭比头发秀"/>超级芭比头发秀<br /><h>益智休闲<br /></h>2130<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Blonde-Princess-Real-Makeover.html" title="长发公主去美容" ><img src="/imagedata/icon/2016040623271084430.jpg" alt="长发公主去美容"/>长发公主去美容<br /><h>益智休闲<br /></h>1224<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Fitness-Workout-XL.html" title="我要好身材加强版" ><img src="/imagedata/icon/2016040423591386353.jpg" alt="我要好身材加强版"/>我要好身材加强版<br /><h>益智休闲<br /></h>4287<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Bubble-Pop-Adventure.html" title="泡泡历险记" ><img src="/imagedata/icon/2016033021082176102.jpg" alt="泡泡历险记"/>泡泡历险记<br /><h>益智休闲<br /></h>330<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Doctor-Kizi.html" title="牙医综合诊所" ><img src="/imagedata/icon/2016032904025014570.jpg" alt="牙医综合诊所"/>牙医综合诊所<br /><h>益智休闲<br /></h>1930<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Monsters-Tower.html" title="挑战怪兽塔" ><img src="/imagedata/icon/201603290221088468.jpg" alt="挑战怪兽塔"/>挑战怪兽塔<br /><h>益智休闲<br /></h>562<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Paper-Craft-Wars.html" title="纸上部落战争" ><img src="/imagedata/icon/2016032321081476094.jpg" alt="纸上部落战争"/>纸上部落战争<br /><h>益智休闲<br /></h>2727<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Robot-Turtle-Html5.html" title="拼装机器玄武H5版" ><img src="/imagedata/icon/2016032223170083820.jpg" alt="拼装机器玄武H5版"/>拼装机器玄武H5版<br /><h>益智休闲<br /></h>66445<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Twisted-Sky.html" title="扭曲的天空" ><img src="/imagedata/icon/2016032121315677517.jpg" alt="扭曲的天空"/>扭曲的天空<br /><h>益智休闲<br /></h>1017<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Tear-Her-Clothes-H5.html" title="撕掉她的外衣在线版" ><img src="/imagedata/icon/2016031804285716138.jpg" alt="撕掉她的外衣在线版"/>撕掉她的外衣在线版<br /><h>益智休闲<br /></h>107475<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Zootopia-Find-Smiley.html" title="疯狂动物城找笑脸" ><img src="/imagedata/icon/2016032019204369644.jpg" alt="疯狂动物城找笑脸"/>疯狂动物城找笑脸<br /><h>益智休闲<br /></h>16399<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Metal-Animals.html" title="重装动物团" ><img src="/imagedata/icon/201603160243269807.jpg" alt="重装动物团"/>重装动物团<br /><h>益智休闲<br /></h>1903<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Flying-Cheese.html" title="飞扬的奶酪" ><img src="/imagedata/icon/201603160115474548.jpg" alt="飞扬的奶酪"/>飞扬的奶酪<br /><h>益智休闲<br /></h>1519<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Bob-The-Robber-H5.html" title="神偷鲍伯" ><img src="/imagedata/icon/2016031423323284753.jpg" alt="神偷鲍伯"/>神偷鲍伯<br /><h>益智休闲<br /></h>12496<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Eggs-and-Cars.html" title="运送鸡蛋" ><img src="/imagedata/icon/2016030923470885628.jpg" alt="运送鸡蛋"/>运送鸡蛋<br /><h>益智休闲<br /></h>1433<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Pixel-Zombies.html" title="点击杀僵尸" ><img src="/imagedata/icon/2016030823222184141.jpg" alt="点击杀僵尸"/>点击杀僵尸<br /><h>益智休闲<br /></h>1259<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Sun-Beams-2.html" title="送小太阳回家2" ><img src="/imagedata/icon/2016030620304773848.jpg" alt="送小太阳回家2"/>送小太阳回家2<br /><h>益智休闲<br /></h>358<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Zombies-CanT-Jump-2.html" title="不会跳的僵尸2" ><img src="/imagedata/icon/201603040022201341.jpg" alt="不会跳的僵尸2"/>不会跳的僵尸2<br /><h>益智休闲<br /></h>2959<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Brave-Squad.html" title="勇者小队" ><img src="/imagedata/icon/201603030151206680.jpg" alt="勇者小队"/>勇者小队<br /><h>益智休闲<br /></h>809<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Pie-Eater.html" title="我要吃饼" ><img src="/imagedata/icon/201603030115154516.jpg" alt="我要吃饼"/>我要吃饼<br /><h>益智休闲<br /></h>400<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Skatelander.html" title="滑板小子" ><img src="/imagedata/icon/2016022919372470645.jpg" alt="滑板小子"/>滑板小子<br /><h>益智休闲<br /></h>13029<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Traffic-Rescue-Mobile.html" title="拯救交通意外" ><img src="/imagedata/icon/201602290121214882.jpg" alt="拯救交通意外"/>拯救交通意外<br /><h>益智休闲<br /></h>1525<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Snail-Bob-4.html" title="蜗牛鲍勃4太空漫游" ><img src="/imagedata/icon/20160229000653413.jpg" alt="蜗牛鲍勃4太空漫游"/>蜗牛鲍勃4太空漫游<br /><h>益智休闲<br /></h>10495<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Flappy-WOW.html" title="飞扬的神兽" ><img src="/imagedata/icon/2016022523083783318.jpg" alt="飞扬的神兽"/>飞扬的神兽<br /><h>益智休闲<br /></h>563<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/City-Connect.html" title="城镇建设者" ><img src="/imagedata/icon/2016022323454385544.jpg" alt="城镇建设者"/>城镇建设者<br /><h>益智休闲<br /></h>1613<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Doodle-Car.html" title="汽车演变史" ><img src="/imagedata/icon/2016022323112883489.jpg" alt="汽车演变史"/>汽车演变史<br /><h>益智休闲<br /></h>2071<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Sea-Bubble-Pirates-3.html" title="海盗兄妹泡泡龙3" ><img src="/imagedata/icon/201602230058113492.jpg" alt="海盗兄妹泡泡龙3"/>海盗兄妹泡泡龙3<br /><h>益智休闲<br /></h>621<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Pinball-of-Oz.html" title="奥兹仙境弹球" ><img src="/imagedata/icon/2016022221431978200.jpg" alt="奥兹仙境弹球"/>奥兹仙境弹球<br /><h>益智休闲<br /></h>653<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Pizza-Ninja-3.html" title="披萨忍者3" ><img src="/imagedata/icon/201602220140586058.jpg" alt="披萨忍者3"/>披萨忍者3<br /><h>益智休闲<br /></h>1612<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Jetpack-Master.html" title="喷气背包大师跑酷" ><img src="/imagedata/icon/201602220117594679.jpg" alt="喷气背包大师跑酷"/>喷气背包大师跑酷<br /><h>益智休闲<br /></h>2318<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Tomb-Runner.html" title="神庙逃亡在线版" ><img src="/imagedata/icon/201603160029491789.jpg" alt="神庙逃亡在线版"/>神庙逃亡在线版<br /><h>益智休闲<br /></h>18323<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Pilot-Heroes.html" title="王牌飞行员" ><img src="/imagedata/icon/201601290025111512.jpg" alt="王牌飞行员"/>王牌飞行员<br /><h>益智休闲<br /></h>1148<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Pocahontas-Slots.html" title="部落水果机" ><img src="/imagedata/icon/20160129000242162.jpg" alt="部落水果机"/>部落水果机<br /><h>益智休闲<br /></h>451<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Foot-Chinko.html" title="世界足球挑战赛" ><img src="/imagedata/icon/2016012823403385233.jpg" alt="世界足球挑战赛"/>世界足球挑战赛<br /><h>益智休闲<br /></h>1476<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Fantasy-Star-Pinball.html" title="梦幻弹球" ><img src="/imagedata/icon/2016012823254184341.jpg" alt="梦幻弹球"/>梦幻弹球<br /><h>益智休闲<br /></h>1468<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Royal-Twins-Cute-Farm.html" title="皇家宝贝可爱农场" ><img src="/imagedata/icon/2016011503231212193.jpg" alt="皇家宝贝可爱农场"/>皇家宝贝可爱农场<br /><h>益智休闲<br /></h>4925<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Tap-The-Frog.html" title="点击青蛙" ><img src="/imagedata/icon/2016011123054383143.jpg" alt="点击青蛙"/>点击青蛙<br /><h>益智休闲<br /></h>1188<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Zombie-Market.html" title="僵尸商城" ><img src="/imagedata/icon/20160111001556957.jpg" alt="僵尸商城"/>僵尸商城<br /><h>益智休闲<br /></h>867<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Endless-Lake.html" title="无尽的跑酷" ><img src="/imagedata/icon/2015113022380781488.jpg" alt="无尽的跑酷"/>无尽的跑酷<br /><h>益智休闲<br /></h>2316<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Outwit-Ball-Uniform-H5.html" title="熟睡中的美女H5版" ><img src="/imagedata/icon/201511250234309270.jpg" alt="熟睡中的美女H5版"/>熟睡中的美女H5版<br /><h>益智休闲<br /></h>190496<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Water-Jetpack.html" title="喷水飞行背包" ><img src="/imagedata/icon/2015110823525985979.jpg" alt="喷水飞行背包"/>喷水飞行背包<br /><h>益智休闲<br /></h>14926<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Pull-Leg-Hairs.html" title="拔腿毛" ><img src="/imagedata/icon/201510260227388858.jpg" alt="拔腿毛"/>拔腿毛<br /><h>益智休闲<br /></h>64175<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Grub-Runner.html" title="快餐快跑" ><img src="/imagedata/icon/201510220055583358.jpg" alt="快餐快跑"/>快餐快跑<br /><h>益智休闲<br /></h>2415<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Poop-Dream.html" title="大便的梦想" ><img src="/imagedata/icon/2015100903460913570.jpg" alt="大便的梦想"/>大便的梦想<br /><h>益智休闲<br /></h>3250<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Coffee-Coffee.html" title="咖啡咖啡" ><img src="/imagedata/icon/2015092420515575115.jpg" alt="咖啡咖啡"/>咖啡咖啡<br /><h>益智休闲<br /></h>6331<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Dynamons.html" title="口袋妖怪H5" ><img src="/imagedata/icon/201508260201367296.jpg" alt="口袋妖怪H5"/>口袋妖怪H5<br /><h>益智休闲<br /></h>12206<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Blitz-Tactics.html" title="闪电偷袭战" ><img src="/imagedata/icon/2015082423344884888.jpg" alt="闪电偷袭战"/>闪电偷袭战<br /><h>益智休闲<br /></h>6742<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Teddy-Bear-Zombies-Grenades.html" title="泰迪熊扫射僵尸" ><img src="/imagedata/icon/201507200149066546.jpg" alt="泰迪熊扫射僵尸"/>泰迪熊扫射僵尸<br /><h>益智休闲<br /></h>1646<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/My-Candy-Box.html" title="我的糖果盒子" ><img src="/imagedata/icon/201507100235339334.jpg" alt="我的糖果盒子"/>我的糖果盒子<br /><h>益智休闲<br /></h>3350<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Dragon-Land.html" title="火龙领地" ><img src="/imagedata/icon/2015062903490513746.jpg" alt="火龙领地"/>火龙领地<br /><h>益智休闲<br /></h>6766<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Handless-Millionaire-HTML5.html" title="断手百万富翁" ><img src="/imagedata/icon/2015062400010565.jpg" alt="断手百万富翁"/>断手百万富翁<br /><h>益智休闲<br /></h>11106<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Happy-Submarine.html" title="潜艇躲避战" ><img src="/imagedata/icon/2015061803423313353.jpg" alt="潜艇躲避战"/>潜艇躲避战<br /><h>益智休闲<br /></h>3844<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Happy-Tree-Friends-Strandead.html" title="快乐小伙伴" ><img src="/imagedata/icon/2015061021331377594.jpg" alt="快乐小伙伴"/>快乐小伙伴<br /><h>益智休闲<br /></h>21719<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Cut-the-Rope-Time-Travel.html" title="割绳子时光旅行" ><img src="/imagedata/icon/2015051303473513656.jpg" alt="割绳子时光旅行"/>割绳子时光旅行<br /><h>益智休闲<br /></h>27797<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Fallen-Angel.html" title="坠落的小天使" ><img src="/imagedata/icon/201505110034192060.jpg" alt="坠落的小天使"/>坠落的小天使<br /><h>益智休闲<br /></h>5262<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Hungry-Frog.html" title="饥饿的青蛙" ><img src="/imagedata/icon/2015042203072111242.jpg" alt="饥饿的青蛙"/>饥饿的青蛙<br /><h>益智休闲<br /></h>10538<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Whack-My-Phone.html" title="土豪毁手机" ><img src="/imagedata/icon/201504210135265726.jpg" alt="土豪毁手机"/>土豪毁手机<br /><h>益智休闲<br /></h>31477<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Baymax-Go-Home.html" title="送大白回家" ><img src="/imagedata/icon/2015040903361312974.jpg" alt="送大白回家"/>送大白回家<br /><h>益智休闲<br /></h>25368<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Ufo-Run.html" title="UFO天天酷跑" ><img src="/imagedata/icon/2015040820521275133.jpg" alt="UFO天天酷跑"/>UFO天天酷跑<br /><h>益智休闲<br /></h>3629<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Unhook-The-Bra-HTML5.html" title="手势解内衣" ><img src="/imagedata/icon/2015040820383674317.jpg" alt="手势解内衣"/>手势解内衣<br /><h>益智休闲<br /></h>87976<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Spring-Panda.html" title="熊猫跳跃" ><img src="/imagedata/icon/201504070205167516.jpg" alt="熊猫跳跃"/>熊猫跳跃<br /><h>益智休闲<br /></h>3282<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Jewel-Quest-Iwin.html" title="璀璨宝石对对碰" ><img src="/imagedata/icon/201504070028271708.jpg" alt="璀璨宝石对对碰"/>璀璨宝石对对碰<br /><h>益智休闲<br /></h>1716<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Jumping-Rock.html" title="跳跃的石头" ><img src="/imagedata/icon/201504020215328132.jpg" alt="跳跃的石头"/>跳跃的石头<br /><h>益智休闲<br /></h>4033<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Tip-Tap.html" title="弯曲之路" ><img src="/imagedata/icon/201504020055183318.jpg" alt="弯曲之路"/>弯曲之路<br /><h>益智休闲<br /></h>3399<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Right-Or-Wrong.html" title="判断对错" ><img src="/imagedata/icon/201503180118454726.jpg" alt="判断对错"/>判断对错<br /><h>益智休闲<br /></h>3979<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Finger-Stabbing.html" title="切手指" ><img src="/imagedata/icon/201503130138445925.jpg" alt="切手指"/>切手指<br /><h>益智休闲<br /></h>107735<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Operate-Now-Eardrum-Surgery.html" title="中耳手术" ><img src="/imagedata/icon/2014122119493271372.jpg" alt="中耳手术"/>中耳手术<br /><h>益智休闲<br /></h>7153<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Zombilliards.html" title="尸体和台球" ><img src="/imagedata/icon/201412020246189978.jpg" alt="尸体和台球"/>尸体和台球<br /><h>益智休闲<br /></h>1765<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Candy-Rain-2.html" title="云里糖果对对碰2" ><img src="/imagedata/icon/2014113019592771967.jpg" alt="云里糖果对对碰2"/>云里糖果对对碰2<br /><h>益智休闲<br /></h>2684<d>进入</d></a></li>
+
+               	<li><a href="/gameinfo/Toss-a-Paper-2.html" title="扔废纸团2" ><img src="/imagedata/icon/201411260032311951.jpg" alt="扔废纸团2"/>扔废纸团2<br /><h>益智休闲<br /></h>4352<d>进入</d></a></li>
+
+            </ul>
+            <div class="last_b_enter">
+	         	<form>
+	            	<input type="submit" value="展开全部">
+	            </form>
+        	</div>
+        </div>
+    </div>
+    
+    
+    <div class="bottom">
+    	<div class="bottom_t">
+
+        </div>
+        
+        <div class="bottom_b">
+        	<div class="bottom_b_t"><img src="/img/b_03.jpg"/></div>
+            <div class="bottom_b_c">
+            	<p>来玩H5温馨提示：抵制不良游戏拒绝盗版游戏注意自我保护谨防受骗上当适度游戏益脑沉迷游戏伤身</p>
+                <p>合理安排时间享受健康生活 网站备案：闽ICP备12004588号-7 Copyright &#169; 2016~2017 <a href="http://www.laiwanh5.com">来玩H5</a></p>
+            </div>
+            <div class="bottom_b_btn">
+            	<ul>
+                </ul>
+            </div>
+        </div>  
+    </div>
+    
+    
+    <div class="final">
+    	<ul>
+        	<li><a href="/"><img src="/img/01.png"/><br />首页</a></li>
+            <li><a href="/moregames.html"><img src="/img/02.png"/><br />游戏库</a></li>
+            <li><a href="/hot-games.html"><img src="/img/03.png"/><br />热门</a></li>
+            <li><a href="#"><img src="/img/04.png"/><br />我</a></li>
+        </ul>
+    </div>
+    
+    
+</body>
+</html>

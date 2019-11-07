@@ -1,0 +1,26 @@
+* {margin:0;padding:0;}
+li {list-style:none;}
+.clearfix:after{content:"."; clear:both; display:block; height:0; visibility:hidden;}
+.clearfix {zoom:1;}
+img {border:none;}
+
+
+
+/* iFocus style */
+	#ifocus {
+	width:348px;
+	height:266px;
+	position:relative;
+	overflow:hidden;
+	margin-left: 3px;
+}
+		#ifocus_pic { display:inline;width:348px; height:266px; overflow:hidden;  }
+		#ifocus_piclist { width:100% ; position:absolute;}
+		#ifocus_piclist li {width:348px; height:266px; overflow:hidden; position:relative; }
+		#ifocus_piclist img { width:100%; height:100%; position:absolute; top:0;left:0; }
+		#ifocus_btn { display:block;position:absolute;height:50px;width:348px;bottom:0;left:0px;overflow:hidden;background-color: #000000;padding-top: 6px;filter: Alpha(Opacity=80);
+}
+		#ifocus_btn li { height:40px;overflow:hidden;width:62px;vertical-align:bottom;float:left;border:1px solid #FF9900;cursor:pointer;background-color: #FF6600;margin-top: 0px;margin-right: 2px;margin-bottom: 0;margin-left: 3px; }
+		#ifocus_btn li img{ float:left;width:62px;height:40px;margin-right:3px; }
+		#ifocus_btn .current {width:62px;height: 42px;}
+

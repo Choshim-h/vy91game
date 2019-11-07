@@ -1,0 +1,30 @@
+td {
+	font-size: 9pt;
+}
+body {
+	font-size: 9pt;
+}
+a {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 9pt;
+	color: #FF0000;
+}
+.input {
+	font-size: 12px;
+	border-top: 1px inset;
+	border-right: 1px inset #CCCCCC;
+	border-bottom: 1px inset #CCCCCC;
+	border-left: 1px inset;
+	height: 18px;
+}
+.subbt {
+	font-size: 12px;
+	padding-top: 1px;
+	height: 19px;
+	border: 1px double #CCCCCC;
+	background-color: #f5f5f5;
+	cursor: hand;

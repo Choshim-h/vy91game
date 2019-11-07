@@ -1,0 +1,184 @@
+﻿@charset "utf-8";
+/* 简单流媒体
+   注意: 流媒体要求您删除 HTML 中媒体的高度和宽度属性
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 不支持最大宽度，因此默认为 100% 宽度 */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver 流体网格属性
+	----------------------------------
+	dw-num-cols-mobile:		3;
+	dw-num-cols-tablet:		5;
+	dw-num-cols-desktop:	8;
+	dw-gutter-percentage:	33;
+	
+	灵感来自于 Ethan Marcotte 的“具有响应的 Web 设计” 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	和 Joni Korpi 的“黄金网格系统”
+	http://goldengridsystem.com/
+*/
+
+/* 移动设备布局: 480px 及更低。 */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#acool_head {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-image: url(../images/acool_logo_head_bg.png);
+	background-repeat: repeat-x;
+}
+#acool_index_body {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#acool_index_gamelist {
+	clear: none;
+	float: left;
+	margin: 1.666666%;
+	width: 30%;
+	display: block;
+}
+.gamelist_icon{
+	border: 2px solid #F2F6F8;
+	/* filter:alpha(opacity=80);-moz-opacity: 0.80;opacity: 0.80; */
+	border-radius:15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#playinfo_top_gg1{
+    float: left;
+    width: 100%;
+    height: 280px;
+}
+
+/* 平板电脑布局: 481px 至 768px。样式继承自: 移动设备布局。 */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#acool_head {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-image: url(../images/acool_logo_head_bg.png);
+	background-repeat: repeat-x;
+}
+#acool_index_body {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#acool_index_gamelist {
+	clear: none;
+	float: left;
+	margin: 1%;
+	width: 18%;
+	display: block;
+}
+.gamelist_icon{
+	border: 2px solid #F2F6F8;
+	/* filter:alpha(opacity=80);-moz-opacity: 0.80;opacity: 0.80; */
+	border-radius:15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#playinfo_top_gg1{
+    float: left;
+    width: 100%;
+    height: 280px;
+}
+
+}
+
+/* 桌面电脑布局: 769px 至最高 1232px。样式继承自: 移动设备布局和平板电脑布局。 */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#acool_head {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-image: url(../images/acool_logo_head_bg.png);
+	background-repeat: repeat-x;
+}
+#acool_index_body {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#acool_index_gamelist {
+	clear: none;
+	float: left;
+	margin: 0.5%;
+	width: 11.5%;
+	display: block;
+}
+.gamelist_icon{
+	border: 2px solid #F2F6F8;
+	/* filter:alpha(opacity=80);-moz-opacity: 0.80;opacity: 0.80; */
+	border-radius:15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#playinfo_top_gg1{
+    float: left;
+    width: 100%;
+    height: 280px;
+}
+
+}

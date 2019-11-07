@@ -1,0 +1,14 @@
+//直接放页面
+<script language="javascript">
+var mydivw1=550;//宽
+var mydivh1=450;//高
+document.write('<ifr'+'ame frameborder="0" height="'+mydivh1+'px" width="'+mydivw1+'px" scrolling=no src="你的地址wPlayer.html?dispUrl='+escape(location.href)+'&w='+mydivw1+'&h='+mydivh1+'" ></ifr'+'ame>');
+</script>
+
+
+//放iframe页面调用代码
+<script language="javascript">
+var mydivw1=550;//宽
+var mydivh1=450;//高
+document.write('<ifr'+'ame frameborder="0" height="'+mydivh1+'px" width="'+mydivw1+'px" scrolling=no src="你的地址wPlayer.html?dispUrl='+escape(document.referrer)+'&w='+mydivw1+'&h='+mydivh1+'" ></ifr'+'ame>');
+</script>

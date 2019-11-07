@@ -1,0 +1,39 @@
+TD {
+	FONT-SIZE: 12px; COLOR: #535352; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.CopyURLinput {
+	FONT-SIZE: 10px; COLOR: #999999; BORDER-TOP-STYLE: none; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.green_border {
+	BORDER-RIGHT: #c9daa9 1px solid; BORDER-TOP: #c9daa9 1px solid; BORDER-LEFT: #c9daa9 1px solid; BORDER-BOTTOM: #c9daa9 1px solid
+}
+.smail_en {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.input2 {
+	BORDER-RIGHT: #d3d3d3 1px solid; BORDER-TOP: #d3d3d3 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #d3d3d3 1px solid; COLOR: #666666; BORDER-BOTTOM: #d3d3d3 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.white_txt {
+	FONT-SIZE: 12px; COLOR: #ffffff
+}
+.style1 {
+	FONT-WEIGHT: bold; COLOR: #9a7656
+}
+.style2 {
+	COLOR: #9a7656
+}
+.style3 {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.style5 {
+	COLOR: #339999
+}
+A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.selected {
+	BORDER-RIGHT: #b2b8aa 1px solid; BORDER-TOP: #b2b8aa 1px solid; FILTER: Alpha(opacity=100); BORDER-LEFT: #b2b8aa 1px solid; BORDER-BOTTOM: #b2b8aa 1px solid
+}
+.unselected {
+	BORDER-RIGHT: #edf8dd 1px solid; BORDER-TOP: #edf8dd 1px solid; FILTER: Alpha(opacity=30); BORDER-LEFT: #edf8dd 1px solid; BORDER-BOTTOM: #edf8dd 1px solid
+}

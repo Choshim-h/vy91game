@@ -1,0 +1,1 @@
+document.writeln("<img src=\"http:\/\/img.ybvv.com\/ad\/jy\/myimg\/ad4.gif\" width=\"159\" height=\"56\" \/>");

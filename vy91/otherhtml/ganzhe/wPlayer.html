@@ -1,0 +1,78 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+    <title>SamplePlayer</title>
+
+  <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+  <script language="javascript">
+function getQueryString(queryname) {
+    var qKeys = {};
+    var re = /[?&]([^=]+)(?:=([^&]*))?/g;
+    var matchInfo;
+    while(matchInfo = re.exec(location.search)){
+	    qKeys[matchInfo[1]] = matchInfo[2];
+    }
+    return typeof(qKeys[queryname])=='undefined'?'':qKeys[queryname];
+}
+var dispUrl=getQueryString('dispUrl');//取dispUrl
+var w=getQueryString('w');
+var h=getQueryString('h');
+if(w=='')w=400;
+if(h=='')h=350;
+
+var gh=(parseInt(h)-20);
+
+document.writeln("<style type=\"text\/css\">");
+document.writeln("<!--");
+document.writeln("#apDivPlan {Z-INDEX: 999; POSITION: relative; WIDTH: "+w+"px; HEIGHT: "+gh+"px; margin-top:-"+gh+"px; margin-left:0px;}");
+document.writeln("-->");
+document.writeln("<\/style>")
+
+
+function closeAd(){
+var myAdPlan=document.getElementById('apDivPlan');
+myAdPlan.innerHTML="";
+myAdPlan.style.display="none";
+}
+
+//以下是要修改的部分
+var gPubId="8488955480361764";//google Pub ID,数字部分即可
+var gChannels="3130013341,ganzhe_game_2";//渠道ID和渠道名，格式为：2000036001,changli_video
+</script>
+</head>
+
+<body style="margin:0px;">
+<script type="text/javascript">
+document.writeln("<object id=\"FlashID\" classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\""+w+"\" height=\""+h+"\">");
+document.writeln("  <param name=\"movie\" value=\"wPlayer.swf\">");
+document.writeln("  <param name=\"quality\" value=\"high\">");
+document.writeln("  <param name=\"wmode\" value=\"transparent\">");
+document.writeln("<param name=\"allowScriptAccess\" value=\"always\">");
+document.writeln("  <param name=\"swfversion\" value=\"8.0.35.0\">");
+document.writeln("  <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->");
+document.writeln("  <param name=\"expressinstall\" value=\"Scripts\/expressInstall.swf\">");
+document.writeln("  <param name=\"FlashVars\" value=\"gPub="+gPubId+"&gChannel="+gChannels+"&gdispUrl="+escape(dispUrl)+"\">");
+document.writeln("  <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->");
+document.writeln("  <!--[if !IE]>-->");
+document.writeln("  <object type=\"application\/x-shockwave-flash\" data=\"wPlayer.swf\" width=\""+w+"\" height=\""+h+"\">");
+document.writeln("    <!--<![endif]-->");
+document.writeln("    <param name=\"quality\" value=\"high\">");
+document.writeln("    <param name=\"wmode\" value=\"transparent\">");
+document.writeln("<param name=\"allowScriptAccess\" value=\"always\">");
+document.writeln("    <param name=\"swfversion\" value=\"8.0.35.0\">");
+document.writeln("    <param name=\"expressinstall\" value=\"Scripts\/expressInstall.swf\">");
+document.writeln("    <param name=\"FlashVars\" value=\"gPub="+gPubId+"&gChannel="+gChannels+"&gdispUrl="+escape(dispUrl)+"\">");
+document.writeln("    <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->");
+document.writeln("    <div>");
+document.writeln("      <h4>此页面上的内容需要较新版本的 Adobe Flash Player。<\/h4>");
+document.writeln("      <p><a href=\"http:\/\/www.adobe.com\/go\/getflashplayer\"><img src=\"http:\/\/www.adobe.com\/images\/shared\/download_buttons\/get_flash_player.gif\" alt=\"获取 Adobe Flash Player\" width=\"112\" height=\"33\" \/><\/a><\/p>");
+document.writeln("    <\/div>");
+document.writeln("    <!--[if !IE]>-->");
+document.writeln("  <\/object>");
+document.writeln("  <!--<![endif]-->");
+document.writeln("<\/object>");
+
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>

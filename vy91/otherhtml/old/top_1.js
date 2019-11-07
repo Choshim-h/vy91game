@@ -1,0 +1,1 @@
+document.writeln("<a href=\"http:\/\/bbs.ganzhe.com\/thread-35-1-1.html\" target=\"_blank\"><img src=\"http:\/\/www.ganzhe.com\/otherhtml\/qbanner.gif\" width=\"254\" height=\"66\" border=\"0\" \/><\/a>");

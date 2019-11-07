@@ -1,0 +1,1 @@
+document.writeln("<iframe id=\"baiduframe\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"No\" framespacing=\"0\" vspace=\"0\" hspace=\"0\" frameborder=\"0\" width=\"980\" height=\"90\"   src=\"\/banner\/topbanner.htm\"> <\/iframe>");

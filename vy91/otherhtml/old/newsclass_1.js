@@ -1,0 +1,1 @@
+document.writeln("<a href=\"http:\/\/www.ganzhe.com\/games\/doudizhu\/\" target=\"_blank\"><img src=\"http:\/\/www.ganzhe.com\/banner\/gzddz.jpg\" width=\"980\" height=\"90\" border=\"0\" \/><\/a>");

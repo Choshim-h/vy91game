@@ -1,0 +1,39 @@
+/* 转载请保留版权信息：懒人图库 www.lanrentuku.com */
+*{ padding:0; margin:0; font-size:12px}
+ul,li{ list-style:none;}
+img{ border:0;}
+#zSlider{
+	width:609px;
+	overflow:hidden;
+	background-color: #000000;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#picshow{position:relative;}
+#picshow,#picshow_img{width:509px; height:280px; overflow:hidden; float:left;}
+#picshow_img li{width:509px; height:280px; overflow:hidden; float:left; display:none;}
+#picshow_img img{width:509px; height:280px;}
+
+#select_btn{
+	width:90px;
+	height:280px;
+	float:left;
+	display:inline;
+	margin-left: 3px;
+}
+#select_btn li{
+	width:90px;
+	height:48px;
+	cursor:pointer;
+	margin-top: 4px;
+	margin-bottom: 7px;
+}
+#select_btn a{color:#000;}
+#select_btn img{
+	width:90px;
+	height:48px;
+	border:2px solid #33FFFF;
+}
+#select_btn img:hover{border:2px solid #F00;}

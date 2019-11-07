@@ -1,0 +1,55 @@
+td {
+	font-size: 9pt;
+}
+body {
+	font-size: 9pt;
+}
+a {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 9pt;
+	color: #FF0000;
+}
+.input {
+	font-size: 12px;
+	border-top: 1px inset;
+	border-right: 1px inset #CCCCCC;
+	border-bottom: 1px inset #CCCCCC;
+	border-left: 1px inset;
+	height: 18px;
+}
+.subbt {
+	font-size: 12px;
+	padding-top: 1px;
+	height: 19px;
+	border: 1px double #CCCCCC;
+	background-color: #f5f5f5;
+	cursor: hand;
+}
+.bordercolor{
+
+	border: 1px solid #7BA4E8;
+	}
+	
+	.bgTitle {
+	background-color:  #B0D4F6;
+}
+.bgList {
+	background-color: #ECF6FF;
+}
+.bg1 {
+	background-color: #7BA4E8;
+	line-height: 20px;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.tablebg {
+	background-color: #ECF6FF;
+	border-top-color: #B0D4F6;
+	border-right-color: #B0D4F6;
+	border-bottom-color: #B0D4F6;
+	border-left-color: #B0D4F6;
+}

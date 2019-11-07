@@ -1,0 +1,10 @@
+document.writeln("	  <script language=\"JavaScript\" type=\"text\/javascript\">");
+document.writeln("\/\/随机广告代码");
+document.writeln("tips = new Array(1);");
+document.writeln("tips[0] = \'<a href=\"http:\/\/tj.pet.mop.com\/click.html?70001|1502|633_89742|nlink|http:\/\/in.t.mop.com\/t\/in000042072711.html?tg=qxtg88001502\" target=\"_blank\"><img src=\"http:\/\/www.ganzhe.com\/banner\/980x90-2.gif\" width=\"980\" height=\"90\" border=\"0\" \/><\/a>\';");
+document.writeln("tips[1] = \'<a href=\"http:\/\/union1.51wan.com\/union2\/gg.do?action=click&a=23100&b=4302&c=66\" target=\"_blank\"><img src=\"http:\/\/www.ganzhe.com\/banner\/frxx980x90.gif\" width=\"980\" height=\"90\" border=\"0\" \/><\/a>\';");
+document.writeln("index = Math.floor(Math.random() * tips.length);");
+document.writeln("document.write(tips[index]);");
+document.writeln("<\/script>");
+document.writeln("<script type=\"text\/javascript\"> \/*gz120*270，创建于2010-7-2*\/ var cpro_id = \'u89977\';<\/script>");
+document.writeln("<script type=\"text\/javascript\" src=\"http:\/\/cpro.baidu.com\/cpro\/ui\/f.js\"><\/script>");

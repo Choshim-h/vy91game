@@ -1,0 +1,1 @@
+document.writeln("<a href=\"http:\/\/www.ganzhe.com\/games\/?banner\"><img src=\"http:\/\/www.ganzhe.com\/banner\/gzycyx.jpg\" width=\"980\" height=\"90\" border=\"0\" \/><\/a>");

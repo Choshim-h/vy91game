@@ -1,0 +1,456 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	height:100%; overflow:hidden; margin:0px; padding:0px;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#gameplay{
+	-webkit-height:100%;
+    -webkit-width: 100%;
+    -webkit-position:absolute;
+		
+    -ms-height:100%;
+    -ms-width: 100%;
+    -ms-position:absolute;
+
+	height:100%;
+	width: 100%;
+	position:absolute;
+}
+
+.gameplayer-ui{
+    -webkit-z-index: 1;
+    
+    -ms-z-index: 1;
+   
+    z-index: 1;
+	}
+	
+.gamemenu-overlay {
+	-webkit-opacity: 0.6;
+    -webkit-overflow: hidden;
+    -webkit-position: fixed;
+    -webkit-top: 0;
+    -webkit-left: 0;
+    -webkit-width: 100%;
+    -webkit-height: 100%;
+    -webkit-background: #000;
+	
+	-ms-opacity: 0.6;
+    -ms-overflow: hidden;
+    -ms-position: fixed;
+    -ms-top: 0;
+    -ms-left: 0;
+    -ms-width: 100%;
+    -ms-height: 100%;
+    -ms-background: #000;
+	
+	opacity: 0.6;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.sidepanel-toggle {
+	-webkit-z-index: 1;
+    -webkit-position: absolute;
+    -webkit-top: 2.5em;
+    -webkit-left: 0;
+    -webkit-width: 2.5em;
+    -webkit-height: 2.5em;
+    -webkit-cursor: pointer;
+    -webkit-background: #553E72;
+	
+	-ms-z-index: 1;
+    -ms-position: absolute;
+    -ms-top: 2.5em;
+    -ms-left: 0;
+    -ms-width: 2.5em;
+    -ms-height: 2.5em;
+    -ms-cursor: pointer;
+    -ms-background: #553E72;
+  
+    z-index: 1;
+    position: absolute;
+    top: 2.5em;
+    left: 0;
+    width: 2.5em;
+    height: 2.5em;
+    cursor: pointer;
+    background: #553E72;
+}
+
+.play_setting{
+	-webkit-position: fixed;
+    -webkit-z-index: 999;
+    -webkit-left: 0;
+    -webkit-top: 2em;
+    -webkit-width: 4em;
+	
+	-ms-position: fixed;
+    -ms-z-index: 999;
+    -ms-left: 0;
+    -ms-top: 2em;
+    -ms-width: 4em;
+
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 2em;
+    width: 4em;
+}
+.play_setting img{
+    -webkit-width: 150%;
+    
+    -ms-width: 150%;
+   
+    width: 150%;
+}
+.play_help{
+	-webkit-position: fixed;
+    -webkit-z-index: 999;
+    -webkit-right: 20px;
+    -webkit-top: 2em;
+    -webkit-width: 4em;
+    
+    -ms-position: fixed;
+    -ms-z-index: 999;
+    -ms-right: 20px;
+    -ms-top: 2em;
+    -ms-width: 4em;
+    
+    _position: fixed;
+    _z-index: 999;
+    _right: 20px;
+    _top: 2em;
+    _width: 4em;
+    
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    top: 2em;
+    width: 4em;
+}
+.play_help img{
+    -webkit-width: 150%;
+    
+    -ms-width: 150%;
+ 
+    width: 150%;
+}
+
+#similargames_container{
+	-webkit-position: fixed;
+    -webkit-z-index: 1000;
+    -webkit-display: none;
+    -webkit-background-color: #ffdeb3;
+    -webkit-top: 0;
+    -webkit-left: 0;
+	
+	-ms-position: fixed;
+    -ms-z-index: 1000;
+    -ms-display: none;
+    -ms-background-color: #ffdeb3;
+    -ms-top: 0;
+    -ms-left: 0;
+   
+    position: fixed;
+    z-index: 1000;
+    display: none;
+    background-color: #ffdeb3;
+    top: 0;
+    left: 0;
+}
+
+
+#similargames {
+	-webkit-width: 350px;
+    -webkit-height: 1741px;
+    -webkit-margin-left: 0px;
+    -webkit-padding-top: 0px;
+    
+    -ms-width:350px;
+    -ms-height:1741px;
+    -ms-margin-left:0px;
+  	-ms-padding-top:0px;
+
+	_width: 350px;
+    _height: 1741px;
+    _margin-left: 0px;
+    _padding-top: 0px;
+    
+    width: 350px;
+    height: 1741px;
+    margin-left: 0px;
+    padding-top: 0px;
+}
+.similargames_title{
+	-webkit-width:100%;
+	-webkit-height:79px;
+	-webkit-background-color:#fa7e3e;
+	
+	-ms-height: 79px;
+	-ms-background-color: #Fa7e3e;
+	-ms-width: 100%;
+	
+	_height:79px;
+	_background-color:#fa7e3e;
+	_width:100%;
+	
+	height: 79px;
+	background-color: #Fa7e3e;
+	width: 100%;
+}
+
+.similargames_title_home {
+	-webkit-padding:11px 5px 0 8px;
+	-webkit-font-size: 18px;
+    -webkit-color: #FFFFFF;
+    -webkit-line-height: 30px;
+    -webkit-float: left;
+	
+	-ms-padding: 11px 5px 0 8px;
+    -ms-font-size: 18px;
+    -ms-color: #FFFFFF;
+    -ms-line-height: 30px;
+    -ms-float: left;
+    
+    _padding:11px 5px 0 8px;
+    _font-size:18px;
+    _line-height:30px;
+    _float:left;
+    
+    padding: 11px 5px 0 8px;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 30px;
+    float: left;
+}
+
+.similargames_title_icons {
+	-webkit-float: right;
+	
+	-ms-float: right;
+
+    float: right;
+}
+
+div.thumb {
+	-webkit-float: left;
+    -webkit-margin: 16px;
+    -webkit-text-align: center;
+    -webkit-position: relative;
+    -webkit-width:33%;
+    -webkit-height: 94px;
+	-webkit-margin-left:35px;
+	
+	-ms-float: left;
+    -ms-margin: 16px;
+    -ms-text-align: center;
+    -ms-position: relative;
+    -ms-width:33%;
+    -ms-height: 94px;
+	-ms-margin-left:35px;
+	
+    float: left;
+    margin: 16px;
+    text-align: center;
+    position: relative;
+    width:33%;
+    height: 94px;
+	margin-left:35px;
+}
+
+.thumb img{
+	-webkit-width: 100%;
+    -webkit-overflow: hidden;
+    -webkit-border-radius: 10px;
+    
+    -ms-width: 100%;
+    -ms-overflow: hidden;
+    -ms-border-radius: 10px;
+	
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hreview-aggregate{
+	-webkit-position: fixed;
+    -webkit-z-index: 1000;
+    -webkit-display: none;
+    -webkit-background-color: #ffdeb3;
+    -webkit-top: 0;
+    -webkit-right: 0;
+    
+    -ms-position: fixed;
+    -ms-z-index: 1000;
+    -ms-display: none;
+    -ms-background-color: #ffdeb3;
+    -ms-top: 0;
+    -ms-right: 0;
+  
+    position: fixed;
+    z-index: 1000;
+    display: none;
+    background-color: #ffdeb3;
+    top: 0;
+    right: 0;
+}
+
+.help_help {
+	-webkit-height: 65px;
+    -webkit-width:100%;
+    -webkit-background: #fa7e3e;
+    -webkit-font-size: 16px;
+    -webkit-color: #fff;
+    -webkit-font-weight: 700;
+    -webkit-line-height: 36px;
+    -webkit-position: relative;
+	-webkit-float:right;
+	
+	-ms-height: 65px;
+    -ms-width:100%;
+    -ms-background: #fa7e3e;
+    -ms-font-size: 16px;
+    -ms-color: #fff;
+    -ms-font-weight: 700;
+    -ms-line-height: 36px;
+    -ms-position: relative;
+	-ms-float:right;
+	
+	_height:65px;
+	_width:100%;
+	_background:#fa7e3e;
+	_font-size:16px;
+	_color:#fff;
+	_font-weight:700;
+	_line-height:36px;
+	_position:relative;
+	_float:right;
+		
+	height: 65px;
+    width:100%;
+    background: #fa7e3e;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 36px;
+    position: relative;
+	float:right;
+}
+
+.close_help {
+	-webkit-position: absolute;
+    -webkit-height: 30px;
+    -webkit-width: 30px;
+    -webkit-right: 35px;
+    -webkit-top: 0px;
+	
+	-ms-position: absolute;
+    -ms-height: 30px;
+    -ms-width: 30px;
+    -ms-right: 35px;
+    -ms-top: 0px;
+    
+    _position:absolute;
+    _height: 30px;
+    _width: 30px;
+    _right: 35px;
+    _top: 0px;
+    
+	position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 35px;
+    top: 0px;
+}
+
+#help .title {
+	-webkit-width: 100%;
+    -webkit-font-size: 3.5em;
+    -webkit-font-weight: 700;
+    -webkit-color: #fa7e3e;
+    -webkit-float: left;
+	-webkit-margin-top:9px;
+	-webkit-margin-bottom:9px;
+	-webkit-margin-left:30px;
+	
+	-ms-width: 100%;
+    -ms-font-size: 3.5em;
+    -ms-font-weight: 700;
+    -ms-color: #fa7e3e;
+    -ms-float: left;
+	-ms-margin-top:9px;
+	-ms-margin-bottom:9px;
+	-ms-margin-left:30px;
+	
+	_width: 100%;
+	_font-size: 3.5em;
+	_font-weight: 700;
+	_color: #fa7e3e;
+	_float: left;
+	_margin-top:9px;
+	_margin-bottom:9px;
+	_margin-left:30px;
+	
+    width: 100%;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #fa7e3e;
+    float: left;
+	margin-top:9px;
+	margin-bottom:9px;
+	margin-left:30px;
+}
+
+#help .desc_con {
+	-webkit-float: left;
+    -webkit-color: #000;
+    -webkit-text-align: left;
+    -webkit-width: 95%;
+    -webkit-height: auto;
+    -webkit-font-size: 1.5em;
+	-webkit-margin-left:35px;
+	-webkit-line-height:72px;
+	
+	-ms-float: left;
+    -ms-color: #000;
+    -ms-text-align: left;
+    -ms-width: 95%;
+    -ms-height: auto;
+    -ms-font-size: 1.5em;
+	-ms-margin-left:35px;
+	-ms-line-height:72px;
+	
+	
+	_float: left;
+    _color: #000;
+    _text-align: left;
+    _width: 95%;
+    _height: auto;
+    _font-size: 1.5em;
+	_margin-left:35px;
+	_line-height:72px;
+	
+    float: left;
+    color: #000;
+    text-align: left;
+    width: 95%;
+    height: auto;
+    font-size: 1.5em;
+	margin-left:35px;
+	line-height:72px;
+}
+
+

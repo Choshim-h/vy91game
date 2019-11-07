@@ -1,0 +1,37 @@
+.mainone,
+.maintwo{width: 15%;float: left;margin-top: 75px;}
+.mainone{margin-left: 3%;}
+.mainone ul .thumb:nth-of-type(n+5){display:none;}
+.mainone a,
+.maintwo a{margin-bottom:15px;text-align: center;display: inline-block;overflow: hidden;}
+.mainone a :hover .name span,
+.maintwo a :hover .name span{display: block;bottom: 0px;}
+.mainone a img,
+.maintwo a img{width: 100%;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;-ms-border-radius: 10px;-o-border-radius: 10px;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+.mainone a .name,
+.maintwo a .name{margin-top: -3px;}
+.mainone a .name span:first-of-type,
+.maintwo a .name span:first-of-type{display: inline-block;filter: alpha(opacity=80);-moz-opacity: 0.80;opacity: 0.80;width: 100%;height: 19px;line-height: 20px;color: #FDB50E;background-color: #111111;padding: 5px 0;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.mainone a .name p,
+.maintwo a .name p{position: absolute;top: 0px;right: 0px;}
+.mainone a .name span:nth-of-type(2),
+.maintwo a .name span:nth-of-type(2){position: absolute;top:0px;right: 0px;width: 20px;height: 50px;}
+.maintwo{margin-bottom: 65px;}
+.home{height: 40px;padding: 10px;box-sizing: border-box;}
+.main .guangguo{width: 10%;height: 600px;position: fixed;top: 65px;overflow: hidden;box-sizing: border-box;}
+.main .guangguo span.close{position: relative;right: 0px;background: rgba(0, 0, 0, .6);color: #fff;padding: 5px;font-size: 12px;top: 4px;cursor: pointer;}
+.main .left{left: 10px;}
+.main .right{right: 10px;}
+@media screen and (max-width: 1000px){
+    .main .guangguo{width: 100%;height: auto;min-height:200px;overflow: hidden;}
+    .main .left{top: 60px;left: 0px;}
+    .main .guangguo.right{display: none;}
+ } 
+@media screen and (max-width: 767px){
+    .maintwo{margin-top: 0px;}
+     .main{width: 100% !important;}
+}
+@media screen and (max-width: 660px){
+    .mainone a .name span:first-of-type,
+    .maintwo a .name span:first-of-type{height: 10px;line-height: 10px;}
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><title>
+<!flashname!>
+,{keywords}</title>
+<meta http-equiv=Content-Type content="text/html; charset=gbk">
+<meta name="description" content="{descriptions}">
+<meta name="keywords" content="<!flashname!>{keywords}">
+<link href="/images/public.css" rel="stylesheet" type="text/css" />
+<link href="/images/888wang_index.css" rel="stylesheet" type="text/css" />
+</head>
+<SCRIPT language="JavaScript" src="/inc/js.js"></SCRIPT>
+<script languang="javascript" src="/url.js"></script>
+<script>
+<!--
+function winopen(flashUrl){
+//flashgame.StopPlay()
+var targeturl="/full.htm?"+url<!url!>+""+flashUrl+""
+newwin=window.open("","","scrollbars")
+if (document.all){
+newwin.moveTo(0,0)
+newwin.resizeTo(screen.width,screen.height)
+}
+newwin.location=targeturl
+window.opener =null;
+window.close();
+}
+
+//-->
+</script>
+<body onload="validate('add','<!id!>','<!flashnameencode!>')" onunload="validate('del','<!id!>','<!flashnameencode!>')">
+<!--顶部开始-->
+
+
+<div class="width960">
+<div style="float:left; width:200px; height:112px; text-align:center;">
+<a href="/"><img class="logo" src="/images/logo.gif" width="200" height="80" /></a>
+<div style=" height:30px; width:190px"/><script language="javascript" src="/otherhtml/top_2.js"></script></div>
+</div>
+<div class="search_top margin_top10 left"> <span id="user" style="float:right; padding-top:2px; padding-right:10px; background:none; font-size:12px; font-weight:normal;">正在加载用户信息...</span><span class="big5"><A class="link1" name=StranLink>繁體中文</A></span>
+<div style="float:left; width:500px; height:60px; overflow:hidden; line-height:60px; text-align:center;"><script language="javascript" src="/otherhtml/top_1.js"></script></div>
+</div>
+
+<div class="bigMenu">
+  <ul>
+    <li class="menuOn"><a href="/">全部游戏</a></li>
+    <li><a href="/much.html">玩得多的</a></li>
+    <li><a href="/goog.html">评价好的</a></li>
+    <li id="myGame">我的游戏</li>
+  </ul>
+ <div id="regMessage" style="float:right; padding-top:25px; padding-right:10px; background:none; font-size:12px; font-weight:normal;">提示：想给喜欢的小游戏保存吗？建议您 <a class="link1" href="/user/reg.asp">注册为用户!</a></div>
+  </div>
+<div class="menu width960">
+  <div style="width:190px; float:left"></div>
+  <ul>
+ <!top!>
+  </ul>
+</div>
+
+
+</div>
+
+<div class="width960"><div style="float:left; width:500px;"><form action="/search.asp" method="post"><input type="text" style=" MARGIN-TOP: 3px; BACKGROUND-IMAGE: url(/images/seach_img.gif); WIDTH: 380px; HEIGHT: 18px" 
+onclick="this.style.background='#FFFFFF'" name="www_888wang_com_gameName">
+  <IMG style="margin-top:3px;" src="/images/search_ico.gif" align="absMiddle" onclick="submit()"></form></div>
+  <div style="float:left; width:450px; overflow:hidden; line-height:25px; height:25px;"><script language="javascript" src="/otherhtml/top_3.js"></script></div>
+  </div>
+ 
+<!--顶部结束-->
+<div class="width960 padding_bottom10 textCenter" >
+  <script language="javascript" src="/otherhtml/play_1.js"></script>
+</div>
+
+<div class="width960 margin_top10">
+  <!--右开始-->
+  <div class="rightMain left  border2" style="width:702px; height:auto;">
+    <!--列表start-->
+      <div class="gameListTitle bg1" id="gameListTitle">
+	 <span  style="text-align:center; float:right;"> 上一游戏:<a href="<!backFlashLink!>" target="_blank&play">
+      <!backFlashName!>
+      </a>&nbsp;&nbsp;
+      下一游戏:<a href="<!nextFlashLink!>" target="_blank&play">
+      <!nextFlashName!>
+      </a> </span> <a href="<!nclassLink!>">
+      <!nclassName!>
+      </a>-<a href="<!classLink!>">
+      <!classname!>
+      </a>-<a href="#">
+      <!flashname!>
+      </a>| [<a href="#play">最佳游戏位置</a>]
+	  
+	  </div>
+	  <div class="margin_top5" id="barborder">
+        <DIV id="bar" style="FONT-SIZE: 12px; BACKGROUND: url(/images/load.gif) repeat-x; COLOR: #0000ff; PADDING-TOP: 2px; HEIGHT: 17px; TEXT-ALIGN: right;" 
+align=center>.</DIV>
+      </div>
+	  
+      <div class="textCenter margin_top10"  id="flash_play" style="DISPLAY: none">
+	  	 <a name="play" id="play"></a>
+      <SCRIPT LANGUAGE='javascript'>
+		<!--
+		var searchString = location.search;
+var downstring,h,w;
+www_888wang_com = searchString.substr(1,searchString.length);
+downstring=www_888wang_com;
+while(downstring.indexOf('%20')>-1){
+	downstring =downstring.replace('%20',' ');
+}
+ 			switch (downstring) {
+			//	 case '800':
+//				   h='800';
+//				   w='600';
+//				   break;
+//				case '1024':
+//					h='1024';
+//					w='768';
+//					 break;
+//				case '1280':
+//				   h='1280';
+//				   w='1024';
+//				    break;
+				case 'full':
+				   winopen('<!flashurl!>');
+				    break;
+				default:
+					h='560';
+					w='420';
+			} 
+		
+				 var flashurltemp="<!flashurl!>";
+                 var www_888wang_com_str=""+url<!url!>+""+flashurltemp+"";
+				 if(flashurltemp.indexOf(".dcr")>0 || flashurltemp.indexOf(".dir")>0){
+				 document.write("<EMBED src='"+www_888wang_com_str+"' id='flashgame' name='flashgame'  width="+h+"   height="+w+" type=application/x-shockwave-flash>");
+				 }else{
+				  document.write ("<OBJECT ID='flashgame' name='flashgame' classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0' width="+h+" height="+w+">\n");
+                 document.write ("<PARAM NAME='movie'  VALUE='"+www_888wang_com_str+"'>\n");
+                 document.write ("<PARAM NAME=quality VALUE=high>\n");
+                 document.write ("</OBJECT>\n");
+				 }
+			//-->
+                </SCRIPT>
+      </div>
+      <div class="textCenter" id="adv"><iframe src="/otherhtml/player.html" frameborder="no" width="560" height="420" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+      <div class="textCenter margin_top5 width560 bg2" id="www_888wang_com_playTool" style="DISPLAY: none;"> [<a href="#play">最佳游戏位置</a>]
+        <input type="button" value="重玩" onclick="location.reload()" >
+        <input type="button" value="默认" onclick="Resize(560,420);">
+        <input type="button" value="320*240" onclick="Resize(320,240);">
+        <input type="button" value="640*480" onclick="Resize(640,480);">
+        <input type="button" value="800*600" onclick="Resize(800,600);">
+        <input type="button" value="1024*768" onclick="Resize(1024,768);">
+        <input type="button" value="全屏" onclick="winopen('<!flashurl!>');">
+      </div>
+    <!--列表end-->
+	
+	  <div class="width702 margin_top10  textCenter">
+          <script language="javascript" src="/otherhtml/play_2.js"></script>
+        </div>
+        <div class="width702 margin_top10  textCenter">
+          <ul class="ulli3">
+            <li id="hits">人气:0</li>
+            <li id="love">
+              <form method="post" action="/inc/loveSet.asp?ico=love&id=<!id!>">
+                <img src="/images/faceg.gif" alt="好评"/>好玩：0
+                <input type="submit" name="love" value="好评" />
+              </form>
+            </li>
+            <li id="nolove">
+              <form method="post" action="/inc/loveSet.asp?ico=nolove&id=<!id!>">
+                <img src="/images/faceb.gif" alt="差评"/>差评：0
+                <input type="submit" name="nolove" value="不喜欢"/>
+              </form>
+            </li>
+            <li>
+              <h5> <a href="/user/add.asp?action=add&id=<!id!>&flashname=<!flashname!>">[收藏游戏] </a> </h5>
+            </li>
+			<div class="clearfix"></div><!--清除-->
+          </ul>
+        </div>
+		
+		<div style="height:auto; margin-bottom:10px; width:650px; margin:0 auto 0 auto; padding:2px; color:#0099FF; font-size:14px;" >【游戏说明】 <!body!></div>
+		
+		<div class="border3 margin_top10" style="height:auto; margin-bottom:10px; width:650px; margin:0 auto 0 auto; padding:2px;">
+          <H3><SPAN class=Name2>本类人气小游戏</SPAN></H3>
+          <ul class="ulli3 textLeft">
+            <!top15!>
+            <div class="clearfix"></div><!--清除-->
+          </ul>
+        </div>
+		
+<div class="width702 padding_bottom10 textCenter" style="margin:0 auto 0 auto">
+  <script language="javascript" src="/otherhtml/play_3.js"></script>
+</div>
+ <div class="clearfix"></div><!--清除-->
+ 
+  </div>
+  <!--右end-->
+    <!--左开始-->
+  <div class="leftMain margin_top5 left margin_left5" style="height:auto;">
+   <div class="textCenter "> <script language="javascript" src="/otherhtml/play_4.js"></script></div>
+    <div class="margin_top5 textCenter "> <script language="javascript" src="/otherhtml/play_5.js"></script></div>
+  </div>
+  <!--左结束-->
+  <div class="clearfix"></div><!--清除-->
+</div>
+
+<!--主体开始-->
+<!--信息end-->
+
+<div class="clearfix"></div>
+<!--清除-->
+<!--主体结束-->
+
+<SCRIPT language="JavaScript" src="/inc/play.js"></SCRIPT>
+<SCRIPT language="JavaScript" src="/inc/htmlWrite.asp"></SCRIPT>
+<SCRIPT language="JavaScript" src="/inc/htmlWrite_play.asp?id=<!id!>"></SCRIPT>
+<SCRIPT language="JavaScript" src="/inc/hits.asp?id=<!id!>"></SCRIPT>
+<SCRIPT language="JavaScript" src="/user/playtime_m.asp?action=add&id=<!id!>&flashname=<!flashname!>"></SCRIPT>
+<div class="clearfix"></div>
+<!-- 清除浮动 -->
+<div class="width960 foot"> <a href="#">关于我们</a> | <a href="#">免责声明</a> | <a href="#">使用帮助</a> | <a href="#">人才招聘</a> | <a href="#">联系我们</a> | <a href="/sitemap.html">网站地图</a> <br/>
+  {copyright}
+  <script src="/js/count.js"></script>
+  <br/>
+</div>
+</body>
+</html>
+<SCRIPT language="javascript" src="/Std_StranJF.Js"></SCRIPT>

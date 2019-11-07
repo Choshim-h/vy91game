@@ -1,0 +1,1 @@
+document.writeln("¶¥²¿¶þ 190*30 ");

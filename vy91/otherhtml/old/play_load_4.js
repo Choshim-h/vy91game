@@ -1,0 +1,17 @@
+document.writeln("<table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"5\"  style=\"line-height:25px;\">");
+document.writeln("              <tr>");
+document.writeln("                <td align=\"center\"><a href=\"http:\/\/union1.51wan.com\/union2\/gg.do?action=click&a=23100&b=4302&c=47\" target=\"_blank\"><img src=\"http:\/\/www.ganzhe.com\/banner\/webgame75sg.gif\" width=\"75\" height=\"56\" border=\"0\" style=\"border:solid 1px #CECECE;padding: 1px;\" \/><\/a><\/td>");
+document.writeln("                <td><div><a href=\"http:\/\/union1.51wan.com\/union2\/gg.do?action=click&a=23100&b=4302&c=47\" target=\"_blank\">最三国<\/a><\/div>");
+document.writeln("                    <div style=\"color:#B3B3B3\"> [网游]<\/div><\/td>");
+document.writeln("              <\/tr>");
+document.writeln("              <tr>");
+document.writeln("                <td width=\"95\" align=\"center\"><a href=\"http:\/\/union1.51wan.com\/union2\/gg.do?action=click&a=23100&b=4302&c=61\" target=\"_blank\"><img src=\"http:\/\/www.ganzhe.com\/banner\/webgame75as.gif\" width=\"75\" height=\"56\" border=\"0\" style=\"border:solid 1px #CECECE;padding: 1px;\" \/><\/a><\/td>");
+document.writeln("                <td><div><a href=\"http:\/\/union1.51wan.com\/union2\/gg.do?action=click&a=23100&b=4302&c=61\" target=\"_blank\">傲视天地<\/a><\/div><div style=\"color:#B3B3B3\"> [网游]<\/div><\/td>");
+document.writeln("              <\/tr>");
+document.writeln("              <tr>");
+document.writeln("                <td align=\"center\"><a href=\"http:\/\/union1.51wan.com\/union2\/gg.do?action=click&a=23100&b=4302&c=57\" target=\"_blank\"><img src=\"http:\/\/www.ganzhe.com\/banner\/webgame75pm.gif\" width=\"75\" height=\"56\" border=\"0\" style=\"border:solid 1px #CECECE;padding: 1px;\"\/><\/a><\/td>");
+document.writeln("                <td><div><a href=\"http:\/\/union1.51wan.com\/union2\/gg.do?action=click&a=23100&b=4302&c=57\" target=\"_blank\">飘渺仙剑<\/a><\/div>");
+document.writeln("                  <div style=\"color:#B3B3B3\"> [网游]<\/div><\/td>");
+document.writeln("              <\/tr>");
+document.writeln("            <\/table>");
+document.writeln("");
